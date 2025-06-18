@@ -1,11 +1,11 @@
 import express from 'express';
 
-const route =express.Router()
+const router = express.Router();
 
-router.get('/test',(req,res) =>{
-    res.json({
-        message: "Hello World",
+router.get('/test', (req, res) => {
+  res.json({
+    message: "Hello World",
+  });
 });
-})
 
-export default router
+export default router;
